@@ -1,0 +1,104 @@
+{
+    "editor.fontFamily": "'Droid Sans Mono', Menlo, consolas",
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.rulers": [80, 120],
+    "editor.tabSize": 4,
+    // Precisa instalar o Python e criar um ambiente virtual chamado venv
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    // Precisa instalar o XAMPP (Windows)
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "code-runner.executorMap": {
+        // Precisa instalar o XAMPP (Windows)
+        "php": "C:\\xampp\\php\\php.exe",
+        // Precisa instalar o Python e criar um ambiente virtual chamado venv
+        "python": "venv\\Scripts\\python.exe -u",
+        "python": "set PYTHONIOENCODING=utf8 && python",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+    },
+    // Muda do Powershell para CMD
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "-ExecutionPolicy",
+        "Bypass"
+    ],
+    "code-runner.clearPreviousOutput": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 18,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll": true
+    },
+    //"prettier.configPath": "./.prettierrc.js",
+    "breadcrumbs.enabled": true,
+    "window.zoomLevel": 0,
+    "debug.console.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "files.associations": {
+        "*.html": "html",
+        "**/templates/*.html": "django-html",
+        "**/templates/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only",
+    ],
+    "git.enableSmartCommit": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "terminal.external.windowsExec": "C:\\Users\\pablo\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+    "explorer.compactFolders": false,
+    "colorize.languages": [
+        "css",
+        "sass",
+        "scss",
+        "less",
+        "postcss",
+        "sss",
+        "stylus",
+        "xml",
+        "svg",
+        "javascript",
+        "typescript"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll": true,
+          "source.fixAll.unusedImports": true,
+          "source.organizeImports": true
+        }
+    },
+    "python.languageServer": "Pylance",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnknownMemberType": "none",
+        "reportUnknownArgumentType": "none",
+        "reportUnknownVariableType": "none",
+        "reportUnknownLambdaType": "none",
+        "reportUnknownParameterType": "none"
+},
+"python.formatting.provider": "none",
+}
