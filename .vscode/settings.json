@@ -3,7 +3,7 @@
     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "material-icon-theme",
     "editor.rulers": [80, 120],
-    "editor.tabSize": 4,
+    "editor.tabSize": 2,
     // Precisa instalar o Python e criar um ambiente virtual chamado venv
     "python.pythonPath": "venv\\Scripts\\python.exe",
     // Precisa instalar o XAMPP (Windows)
