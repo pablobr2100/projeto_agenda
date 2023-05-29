@@ -5,6 +5,13 @@
 
     <h2>Login</h2>
 
-    {% include 'contact/partials/_user_form.html' %}
+    {% if user.is_authenticated %}
+      <p>
+        Você está logado como {{ user.username }}
+      </p>
+    {% else %}
+      {% include 'contact/partials/_user_form.html' %}
+    {% endif %}
+
   </div>
 {% endblock content %}
